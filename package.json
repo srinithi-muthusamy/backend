@@ -1,0 +1,19 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start":"node index.js",
+    "dev":"nodemon index.js"
+  },
+  "author": "srinithi",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {"nodemon": "^3.1.10"},
+  "dependencies": {
+    "express": "^5.1.0",
+    "morgan": "^1.10.0"
+    
+  }
+}
